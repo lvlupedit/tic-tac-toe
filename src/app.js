@@ -47,7 +47,7 @@ function drawBoard() {
         }
 
         if (checkForDraw()) {
-          drawMessage("Draw!");
+          drawMessage("it's a draw!");
           state.gameFinished = true;
         }
       });
