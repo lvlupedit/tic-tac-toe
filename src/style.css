@@ -5,6 +5,10 @@
   font-family: sans-serif;
 }
 
+body {
+  background-color: rgb(225, 221, 217);
+}
+
 .game {
   display: grid;
   grid-template-columns: repeat(3, 220px);
@@ -21,7 +25,7 @@
 }
 
 .symbol {
-  color: white;
+  color: rgb(225, 221, 217);
   font-size: 150px;
   text-align: center;
   line-height: 220px;
